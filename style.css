@@ -113,6 +113,15 @@ ul li::before {
     background-color: #62925a;
 }
 
+.mailto {
+    color: #212121;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: 'Montserrat', serif;
+    opacity: 80%;
+    margin-bottom: 1rem;
+}
+
 /*RESPONSIVIDADE*/
 /* Estilos para telas pequenas (até 768px de largura) */
 @media (max-width: 768px) {
