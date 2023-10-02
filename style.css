@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    background-color: #fff6e4;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.logo {
+    width: 23.625rem;
+    height: 23.625rem;
+    margin-bottom: 0.75rem;
+}
+
+.loading-section {
+    text-align: center;
+}
+
+.loading-text {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 2.56rem;
+}
+
+.loading-gif {
+    width: 1.6875rem;
+    height: 1.6875rem;
+    margin-bottom: 3.75rem;
+}
+
+a {
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo-whatsapp {
+    padding-right: 1.32rem;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+
+    padding: 1.38rem 4rem;
+
+    width: 31.875rem;
+    height: 5.4375rem;
+
+    border-radius: 5.75rem;
+    background: #679E5E;
+
+}
+
+.text-block {
+    margin: 4.94rem 14.12rem 4.94rem 14.12rem;
+    color: #364861;
+    font-family: Montserrat;
+    font-size: 2rem;
+}
+
+/* Estilize a lista não ordenada */
+ul {
+    list-style-type: none; /* Remova o marcador padrão */
+    padding-left: 0; /* Remova o recuo padrão da lista */
+}
+
+/* Defina o marcador personalizado usando a imagem SVG */
+ul li::before {
+    content: "";
+    display: inline-block;
+    width: 1rem; /* Largura da imagem SVG */
+    height: 1rem; /* Altura da imagem SVG */
+    background-image: url(out/Polygon.svg); /* Substitua pelo caminho correto do seu arquivo SVG */
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px; /* Espaçamento entre o marcador e o texto do item da lista */
+    
+}
+
+#button-2{
+    margin-bottom: 6rem;
+}
+
+.button:hover {
+    background-color: #62925a;
+}
+
+/*RESPONSIVIDADE*/
+/* Estilos para telas pequenas (até 768px de largura) */
+@media (max-width: 768px) {
+    /* Estilos para telas pequenas */
+    .text-block {
+        margin: 4.94rem 2rem 4.94rem 2rem;
+        color: #364861;
+        font-family: Montserrat;
+        font-size: 1.6rem;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+
+    padding: 1.38rem 4rem;
+
+    width: 22rem;
+    height: 5.4375rem;
+
+    border-radius: 5.75rem;
+    background: #679E5E;
+
+}
+}
+
+/* Estilos para telas médias (de 769px a 1024px de largura) */
+@media (min-width: 769px) and (max-width: 1100px) {
+    /* Estilos para telas médias */
+    .text-block {
+        margin: 4.94rem 4rem 4.94rem 4rem;
+        color: #364861;
+        font-family: Montserrat;
+        font-size: 1.8rem;
+}
+}
+
+/* Estilos para telas grandes (acima de 1024px de largura) */
+@media (min-width: 1025px) {
+    /* Estilos para telas grandes */
+}
