@@ -123,6 +123,7 @@ ul li::before {
 }
 
 .endereco {
+    text-align: center;
     color: #212121;
     text-decoration: none;
     font-size: 0.8rem;
@@ -155,6 +156,10 @@ ul li::before {
     border-radius: 5.75rem;
     background: #679E5E;
 
+}
+
+.mailto {
+    margin-bottom: 0.8rem;
 }
 }
 
